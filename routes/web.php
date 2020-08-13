@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/itc91', function () {
+    return view('Hola Soy Goku');
+});
 
 Route::get('/ITC91', function () {
     return view('vistaItc91');
